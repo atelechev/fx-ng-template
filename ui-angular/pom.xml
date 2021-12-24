@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>ui-angular</artifactId>
-  <packaging>pom</packaging>
+  <packaging>jar</packaging>
 
   <name>Template FXNG - UI Angular</name>
   <description>Contains the Angular part of the application.</description>
@@ -59,7 +59,7 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-assembly-plugin</artifactId>
         <executions>
-          <!-- Package all the bundles into a zip file, which will be used by the ui-javafx module. -->
+          <!-- Package all the bundles into a jar file, which will be used by the ui-javafx module. -->
           <execution>
             <id>package-static-resources</id>
             <phase>package</phase>
