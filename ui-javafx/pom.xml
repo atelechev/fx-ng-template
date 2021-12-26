@@ -44,7 +44,6 @@
                   <groupId>${project.parent.groupId}</groupId>
                   <artifactId>${static-resources-target-path}</artifactId>
                   <version>${project.parent.version}</version>
-                  <type>zip</type>
                 </artifactItem>
               </artifactItems>
               <outputDirectory>${project.build.directory}/classes/${static-resources-target-path}</outputDirectory>
